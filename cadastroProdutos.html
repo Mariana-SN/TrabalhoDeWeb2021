@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Produto</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/EstiloTelasCadastro.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/cadasPro.js"></script>
+
+</head>
+
+<body>
+    <div class="container" id="cadastroProdutoStyle">
+        <form name="formProdutoCadastro" action="index.html" method="POST">
+
+            <h1 class="text-center">Cadastrar Produto</h1>
+            <div class="form-row">
+                <div class="form-group col-md-10 ">
+                    <label for="nameProduto">Nome do Produto:</label>
+                    <input type="text" class="form-control" name="nome" id="nameProduto">
+                </div>
+
+                <div class="form-group col-md-2">
+                    <label for="identificacao">ID :</label>
+                    <input type="number" class="form-control" name="ID" id="identificacao">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="descricao">Descrição:</label>
+                <input type="text" class="form-control" name="desc" id="descricao">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <label for="nomeArtista">Nome do Artista:</label>
+                    <input type="text" class="form-control" name="nomeA" id="nomeArtista">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="tipos"> Tipo:</label>
+                    <input type="text" class="form-control" name="tipo" id="tipos">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group  col-md-6">
+                    <label for="gp">Grupo:</label>
+                    <input type="text" class="form-control" name="grupo" id="gp">
+                </div>
+
+                <div class="form-group  col-md-6">
+                    <label for="sub-gp">Sub-Grupo:</label>
+                    <input type="text" class="form-control" name="subgrupo" id="sub-gp">
+                </div>
+            </div>
+            <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="qtd">Quantidade:</label>
+                <input type="number" class="form-control" name="quantidade" id="qtd">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="pr">Preço Base:</label>
+                <input type="number" class="form-control" name="preço" id="pr">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="prvenda">Preço de Venda:</label>
+                <input type="number" class="form-control" name="preçovenda" id="prvenda">
+            </div>
+        </div>
+
+            <br><button type="submit" class="btn btn-primary" onclick="return validar()">Cadastrar Produto</button>
+        </form>
+    </div>
+</body>
+
+</html>

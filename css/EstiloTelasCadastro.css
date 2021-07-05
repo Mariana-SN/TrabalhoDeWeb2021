@@ -1,0 +1,53 @@
+body{
+  background-image: url('../img/background1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*#teste{
+  position: relative;
+  height: 100%;
+} */
+
+#loginStyle {
+  height:40%;
+  width: 40%;
+  position: absolute;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+    padding: 30px;
+    text-align: left;
+    align-items: center;
+    background-color: rgb(78, 75, 78);
+    color: white;    
+}
+
+#cadastroUStyle {
+  height:50%;
+  width: 40%;
+  position: absolute;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+    padding: 30px;
+    text-align: left;
+    align-items: center;
+    background-color: rgb(78, 75, 78);
+    color: white;    
+}
+
+#cadastroProdutoStyle {
+  height:68%;
+  width: 40%;
+  position: absolute;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+    padding: 30px;
+    text-align: left;
+    align-items: center;
+    background-color: rgb(78, 75, 78);
+    color: white;    
+}
+
